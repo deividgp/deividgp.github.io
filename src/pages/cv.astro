@@ -1,0 +1,115 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="David Gutiérrez Pasqual | CV">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    I am a software developer with two higher vocational trainings: web apps development and cross-platform apps development.
+    The knowledge I am acquiring through professional experience and selflearning makes me an excellent candidate for medium level jobs since I can develop in many frameworks and runtimes with ease.
+    <br><br>
+    I started programming in 2016 when I initiated the web apps development studies. 
+    I have mainly been a backend developer using technologies such as Spring and Laravel/Symfony all this time up until 2022 when I started my current job as a .NET Core developer using C# along with Blazor.
+    In the summer of the same year my frontend knowledge strengthened because I made my bachelor's thesis which consisted of developing a group chat app similar to Discord using React.
+    <br><br>
+    As I previously said I have always been drawn by backend the most but when I really got fascinated by it was in the Distributed Systems subject, where I learned about technologies such as Redis, RabbitMQ, Go...
+    Haven't had many opportunities to put this knowledge into practice yet apart from the assignments from few months ago you can find on my GitHub.
+    <br><br>
+    As a software developer, I am always motivated to learn and stay up-to-date with the latest technologies and best practices in the field. 
+    I believe that the ability to constantly learn and adapt is essential for success in this rapidly evolving industry.
+    <br><br>
+    I am constantly seeking out new opportunities to learn and grow my skillset, whether it be through online courses, watching videos / streamings, or simply staying current with industry news and trends. 
+    I am always on the lookout for new technologies and approaches that have the potential to improve my work and make me a more valuable asset to my team. Whether it's learning a new programming language, exploring a new framework or library, or learning more about software architecture in order to become a proficient architect someday, I am always eager to dive in and learn as much as I can.
+    <br><br>
+    I believe that this drive to constantly learn and improve is what sets successful programmers apart, and I am committed to continuously learning and adapting in order to stay at the forefront of the industry.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Software Developer"
+      subtitle="From November 2022 to January 2023 at Tecnobravo, Tarragona, Spain"
+    >
+      Freelance at Grupo Tecnobravo developing a React and a Node.js apps to display data sent by multiple Java programs through sockets. Technologies: JavaScript, React (Vite), Highcharts, Node.js, Express, Socket.IO, Java with Maven, Git.
+    </TimeLineElement>
+    <TimeLineElement
+      title=".NET Developer"
+      subtitle="From November 2021 at AG Ediciones, Tarragona, Spain"
+    >
+      Full-time fullstack developer at AG Ediciones developing applications in .NET Core with Blazor and C#. Technologies: C#, .NET Core, JavaScript (client side), Blazor, MySql / MariaDB, SQLite, Postman, Visual Studio, Entity Framework, Git, Telerik, Bootstrap, Jenkins, Docker.
+    </TimeLineElement>
+    <TimeLineElement
+      title=".NET Developer"
+      subtitle="From November 2017 to May 2018 at Ticnova, Reus, Spain"
+    >
+      Internship at Ticnova developing back office applications in ASP.NET with Web Forms and C#. Technologies: C#, ASP.NET, SQL Server, FileZilla, Web Forms / WPF.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+  
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Software Engineering"
+      subtitle="From 2023 at Universitat Oberta de Catalunya (online University)"
+    />
+    <TimeLineElement
+      title="Computer Engineering"
+      subtitle="From 2019 to 2022 at Rovira i Virgili University, Tarragona, Spain"
+    />
+    <TimeLineElement
+      title="Higher vocational training in cross apps development"
+      subtitle="From 2018 to 2019 at Vidal i Barraquer institute, Tarragona, Spain"
+    />
+    <TimeLineElement
+      title="Higher vocational training in web apps development"
+      subtitle="From 2016 to 2018 at Baix Camp institute, Reus, Spain"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Spanish (Native)</li>
+    <li>English (B2)</li>
+    <li>JavaScript</li>
+    <li>TypeScript</li>
+    <li>C</li>
+    <li>C#</li>
+    <li>C++</li>
+    <li>PHP</li>
+    <li>Java</li>
+    <li>Python</li>
+    <li>PostgreSQL</li>
+    <li>MySQL / MariaDB</li>
+    <li>CSS</li>
+    <li>HTML</li>
+    <li>.NET</li>
+    <li>Node.js</li>
+    <li>Express.js</li>
+    <li>Blazor</li>
+    <li>Astro</li>
+    <li>Angular</li>
+    <li>React</li>
+    <li>Next.js</li>
+    <li>Symfony</li>
+    <li>Laravel</li>
+    <li>Spring</li>
+    <li>Bootstrap</li>
+    <li>Git</li>
+    <li>Asana / Jira</li>
+    <li>Docker</li>
+    <li>SonarQube</li>
+  </ul>
+</BaseLayout>

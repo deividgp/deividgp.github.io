@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout>
+
+    <div class="pb-12 mt-5">
+      <div class="text-xl py-1">Hey there 👋</div>
+      <div class="text-5xl font-bold">I'm David Gutiérrez</div>
+      <div class="text-3xl py-3 font-bold">Software Developer and Engineering student</div>
+      <div class="py-2">
+        <text class="text-lg">
+        </text>
+      </div>
+      <div class="mt-8">
+        <a class="btn btn-outline" href="https://docs.google.com/document/d/1EFjbBVrwYOnDwyqTiP2pd9GgqhZgVQiAWZ2e987vNQI" target="_blank">Download CV</a>
+        <a href="mailto:dayd4@outlook.com" class="btn btn-outline ml-5"> Contact</a>
+      </div>
+    </div>
+
+    <div>
+      <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
+    </div>
+    <HorizontalCard
+      title="Sigma"
+      desc="Discord clone made for bachelor's thesis. Client side is made with React and server side with Express."
+      url="https://benevolent-paletas-f7af8e.netlify.app/"
+    />
+    <HorizontalCard
+      title="Skribbl (WIP)"
+      desc="Skribbl clone. Client side is made with React and server side with Express."
+      url="https://github.com/deividgp/Skribbl-clone-client/"
+    />
+    <HorizontalCard
+      title="Hacker News (Coming soon)"
+      desc="Hacker News clone made with Next.js."
+      url="https://github.com/deividgp/hacker-news-clone/"
+    />
+</BaseLayout>
